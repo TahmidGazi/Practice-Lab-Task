@@ -1,0 +1,13 @@
+body {
+    font-family: Arial;
+    margin: 50px;
+}
+
+input {
+    padding: 5px;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+}
