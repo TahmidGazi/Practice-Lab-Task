@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Username Form</title>
+</head>
+<body>
+
+    <h2>Username</h2>
+
+    <form>
+        <label>Enter Username:</label><br>
+        <input type="text" id="username" placeholder="Type your username">
+    </form>
+
+        var inputField = document.getElementById("username");
+        inputField.addEventListener("input", function() {
+            this.value = this.value.toUpperCase();  // বড় হাতের অক্ষরে কনভার্ট
+        });
+    </script>
+
+</body>
+</html>
